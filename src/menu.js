@@ -2,6 +2,7 @@ function menu_tab() {
 
     let body = document.querySelector("body");
     let menu = document.createElement("div");
+    menu.setAttribute("id","menu-tab");
     body.appendChild(menu);
 
     let headline = document.createElement("h1");
@@ -20,7 +21,7 @@ function menu_tab() {
     let item2 = document.createElement("h4");
     item2.textContent = "Mac'n'Cheeze";
     menu.appendChild(item2);
-    let desc1 = document.createElement("p");
+    let desc2 = document.createElement("p");
     desc1.textContent = "Corn pasta served in a creamy butternut squash sauce";
     menu.appendChild(desc1);
 

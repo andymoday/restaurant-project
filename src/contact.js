@@ -2,6 +2,7 @@ function contact_tab() {
 
     let body = document.querySelector("body");
     let contact = document.createElement("div");
+    contact.setAttribute("id","contact-tab");
     body.appendChild(contact);
 
     let title = document.createElement("h1");

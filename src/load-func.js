@@ -16,12 +16,14 @@ function createElements() {
     let paragraphTwo = document.createElement("p");
     paragraphTwo.textContent = "We'll be serving you mouthwatering delights from 6pm - 11pm every night of the week";
     content.appendChild(paragraphTwo);
-    //let tab1 = document.createElement("button");
-    //tab1.setAttribute("id" = "tab1-btn");
-    //content.appendChild(tab1);
-    //let tab2 = document.createElement("button");
-    //tab2.setAttribute("id" = "tab2-btn");
-    //content.appendChild(tab2);
+    let tab1 = document.createElement("button");
+    tab1.setAttribute("id","tab1-btn");
+    tab1.setAttribute("style", "height: 20px;");
+    content.appendChild(tab1);
+    let tab2 = document.createElement("button");
+    tab2.setAttribute("id","tab2-btn");
+    tab2.setAttribute("style","height: 20px;")
+    content.appendChild(tab2);
 }
 
 export {createElements}
