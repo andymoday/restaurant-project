@@ -3,6 +3,8 @@ function contact_tab() {
     let body = document.querySelector("body");
     let contact = document.createElement("div");
     contact.setAttribute("id","contact-tab");
+    contact.style.display = "block"
+    contact.setAttribute("style","text-align: center");
     body.appendChild(contact);
 
     let title = document.createElement("h1");
