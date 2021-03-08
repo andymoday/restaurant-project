@@ -4,7 +4,7 @@ function createElements() {
     let content = document.getElementById("content");
 
     let image = document.createElement("img");
-    image.setAttribute("src","../images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg");
+    image.setAttribute("src","./images/anna-pelzer-IGfIGP5ONV0-unsplash.jpg");
     image.setAttribute("alt","picture of lovely food");
     image.setAttribute("id","main-img")
     content.appendChild(image);
