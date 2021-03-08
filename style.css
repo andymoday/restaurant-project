@@ -47,9 +47,160 @@ table {
 	border-spacing: 0;
 }
 /*===================================END OF RESET=============================================*/
+/*====================================MAIN CONTENT============================================*/
 body {
+    background-color: rgba(99, 99, 37, 0.678);
+    color: #141408;
     font-family: 'Quicksand', sans-serif;
     font-weight: 450;
-    background-color: rgba(99, 99, 37, 0.678);
-    color: #141408
+}
+
+#main-img{
+    border: 1px solid black;
+    display: block;
+    margin: 10px auto; 
+    width: 400px;
+}
+
+#content {
+    display: block;
+    text-align: center;
+}
+
+#content h1 {
+    font-size: 40px;
+}
+
+#content h2 {
+    margin: 10px auto; 
+    font-size: 20px;
+}
+
+#content h3 {
+    margin: 10px auto 25px; 
+    font-size: 15px;
+}
+/*============================================TAB BUTTONS=====================================*/
+
+.btn {
+    border-top:1px solid #3535166b;;
+    border-bottom:1px solid #3535166b;;
+    color:#141408 ;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+}
+
+#tab1-btn-deactivate {
+    background-color:rgba(245, 245, 220, 0.8);
+    border-left:1px solid #3535166b;
+    border-right:none;
+    -webkit-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+       -moz-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+            box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+}
+
+#tab1-btn {
+    background-color:rgba(245, 245, 220, 0.8);
+    border-left:1px solid #3535166b;
+    border-right:none;
+} 
+
+#tab2-btn-activate {
+    background-color:rgba(245, 245, 220, 0.8); 
+    border-right:1px solid #3535166b;
+    border-left:none;
+}
+
+#tab2-btn {
+    background-color:rgba(245, 245, 220, 0.8);
+    border-right:1px solid #3535166b;
+    border-left:none;
+    -webkit-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+       -moz-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+            box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+}
+
+/*=========================================MENU TAB========================================*/
+
+
+#menu-tab {
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    -webkit-box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+       -moz-box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+            box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+}
+
+#menu-tab h1 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#menu-tab h2 {
+    font-size:20px;
+    margin: 22px auto 5px;
+    text-decoration: underline;
+}
+
+#menu-tab h3 {
+    margin:10px auto 5px;
+    font-size: 18px;
+}
+
+#menu-tab p {
+    font-style: italic;
+    margin:5px auto;
+    padding: 0 20px;
+}
+
+/*===========================================CONTACT TAB============================================*/
+#contact-tab {
+    display: block;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    -webkit-box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+       -moz-box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+            box-shadow: inset 1px 1px 10px rgba(99, 99, 37, 0.678);
+}
+
+#contact-tab h1 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#contact-tab h2 {
+    font-size:20px;
+    margin: 22px auto 5px;
+}
+
+#form {
+    margin:20px;
+}
+
+#form input {
+    background-color: rgba(245, 245, 220, 0.8);
+    margin:5px 0 10px 0;
+    height:20px;
+    width: 90%;
+}
+
+#msg {
+    background-color: rgba(245, 245, 220, 0.8);
+    height: 40px;
+}
+
+#form button {
+    background-color:rgba(245, 245, 220, 0.8); 
+    border:none;
+    margin: 15px;
+    width:100px;
+    -webkit-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+       -moz-box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
+            box-shadow: inset 1px 1px 10px rgb(179, 165, 165);
 }
