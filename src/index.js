@@ -5,25 +5,23 @@ import {menu_tab} from './menu.js';
 createElements();   
 menu_tab();
 let body = document.querySelector("body");
+let menu = document.getElementById("menu-tab");
 let menuTabBtn = document.getElementById("tab1-btn");
+let contact = document.getElementById("contact-tab");
 let contactTabBtn = document.getElementById("tab2-btn");
-let tab1 = document.getElementById("tab1-btn");
-tab1.addEventListener('click', () => {
-    let contact = document.getElementById("contact-tab");
+menuTabBtn.addEventListener('click', () => {
     if (body.contains(contact)) {
         body.removeChild(contact);
-        menuTabBtn.style.backgroundColor = "beige"
-        contactTabBtn.style.backgroundColor = "rgba(99, 99, 37, 0.678)"
+        menuTabBtn.setAttribute("id","tab1-btn");
+        contactTabBtn.setAttribute("id","tab2-btn");
         menu_tab();
     }
 })
-let tab2 = document.getElementById("tab2-btn");
-tab2.addEventListener('click', () => {
-    let menu = document.getElementById("menu-tab");
+contactTabBtn.addEventListener('click', () => {
     if (body.contains(menu)) {
         body.removeChild(menu);
-        menuTabBtn.style.backgroundColor = "rgba(99, 99, 37, 0.678)"
-        contactTabBtn.style.backgroundColor = "beige"
+        menuTabBtn.setAttribute("id","tab1-btn-deactivate");
+        contactTabBtn.setAttribute("id","tab2-btn-activate");
         contact_tab();
     }
 })
